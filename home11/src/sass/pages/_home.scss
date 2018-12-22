@@ -2,6 +2,7 @@
   background-color: #5a6268;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 
 }
 
@@ -16,18 +17,15 @@
 .background-photo2, .background-photo1 {
   display: flex;
   flex-basis: 50%;
+  flex-wrap: wrap;
 }
 
-.block-design1 {
-  margin-left: 25%;
+.block-design1, .block-design2 {
+  margin-left: 10%;
   margin-top: 10%;
   margin-bottom: 10%;
-}
+  flex-wrap: wrap;
 
-.block-design2 {
-  margin-left: 5%;
-  margin-top: 10%;
-  margin-bottom: 10%;
 }
 
 .headline-text {
@@ -40,29 +38,17 @@
   flex-wrap: wrap;
 }
 
-.web-1 {
+.web-1, .web-2 {
   display: flex;
   flex-basis: 50%;
   flex-direction: column;
   flex-wrap: wrap;
-
-}
-
-.web-2 {
-  display: flex;
-  flex-basis: 50%;
-  flex-direction: column;
-  flex-wrap: wrap;
+  margin-top: 10px;
 }
 
 .but-press {
   padding-bottom: 5%;
   margin-left: 40%;
-}
-
-.cont-text {
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .background-13 {
@@ -119,5 +105,11 @@
   .bac-map {
     width: 100%;
     background-size: cover;
+  }
+  h2 {
+    font-size: 34px;
+  }
+  h4 {
+    font-size: 18px;
   }
 }
