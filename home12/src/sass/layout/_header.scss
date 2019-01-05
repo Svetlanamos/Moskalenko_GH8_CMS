@@ -1,0 +1,33 @@
+body {
+  width: 100px;
+  background-color: #9fcdff;
+  display: flex;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.act, .activ, .activrez {
+  display: flex;
+  flex: min-content;
+  padding: 30px;
+}
+
+.activ input {
+  margin-right: 10px;
+}
+
+.act button {
+  padding: 10px;
+  margin: 10px;
+}
+
+.activrez p {
+  font-size: 60px;
+  color: #6610f2;
+}
+
+#res {
+  background-color: #ffffff;
+}
